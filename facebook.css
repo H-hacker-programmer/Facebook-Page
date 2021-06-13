@@ -1,0 +1,290 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: #f0f2f5;
+}
+link{
+    display: none;
+}
+
+/* img of facebook */
+div img{
+    height: 106px;
+    margin-top: 176px;
+    margin-left:157px;
+}
+
+/* h2 font below logo of facebook */
+h2{
+    font-size: 1.75rem;
+    line-height: 32px;
+    font-weight: normal ;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    width: auto;
+    
+    /* font set */
+    margin-top: -12px;
+    margin-left: 184.6px;
+
+}
+.information{
+    text-align: center;
+    background-color:#fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);    
+    padding: 69px 0 50px;
+    width: 396px;
+    margin-left: 765px;
+    margin-top: -206px;
+    height: 230px;
+}
+
+/* Input section */
+div input{
+    background-color:white ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    border-radius: 5px;
+    border: 1px solid #e2e4e7;
+    width: 12erm;
+    display: block;
+
+}
+
+/* input email */
+.Email{
+    font-size: 17px;
+    padding: 14px 15.6px;
+    width: 330px;
+    margin-top: -53px;
+    margin-left: 16px;
+    height: 22px;
+}
+
+.Password{
+    font-size: 17px;
+    padding: 14px 15.6px;
+    width: 330px;
+    margin-top: -6px;
+    margin-left: 16px;
+    height: 22px;
+}
+
+/* login button */
+.b{
+    background-color: #1877f2;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 364px;
+    height: 48px;
+    border-radius: 5px;
+    margin-top: -2px;
+    margin-left: -1px;
+    cursor: pointer;
+}
+.a{
+    color: #1877f2;
+    font-family: Arial;
+    font-weight: 400px;
+    background: none;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1.34cm;
+    font-size: 14px;
+    margin-left: -1.1px;
+    position: relative;
+}
+a:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.15s ease-out;
+}
+.a:hover:after{
+    transform: scaleX(1);
+    transform-origin:bottom left;
+}
+
+/* below line of foorgot pass */
+.l{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    margin: 20px 16px;
+    margin-top: 3.6px;
+}
+
+/* create new account */
+.cnew{
+    background-color: #42b72a;
+    border: none;
+    color: white;
+    margin-top: 6px;
+    margin-right: 1px;
+    height: 48px;
+    width: 5.2cm;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+h6{
+    font-family: Arial;
+    font-size: 14px;
+    margin-top: 29px;
+    margin-left: 813.5px;
+    font-weight: normal;
+}
+.cp{
+    font-weight: bold;
+}
+
+
+/* footer start here-------------- */
+.photo{
+    border: 1px solid white;
+    background-color: white;
+    margin-top: 194px;
+    height: 154px;
+    width: 1347px;
+}
+li{
+  list-style: none;  
+  display: inline-block;
+  margin-left: 20px;
+  padding-left: 10px;
+  background-color: white;
+  white-space: nowrap;
+}
+.j{
+    font-weight: normal;
+    margin-left: 153.5px;
+    margin-top: 7px;
+    background-color: white;
+}
+.en {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial;
+    color: #737373;
+    background-color: white;
+}
+.language{
+    color: #385898;
+    margin-top: -6px;
+    font-size: 12px;
+    background-color: white;
+    text-decoration: none;
+    margin-left: -24px;
+}
+.lang{
+    color: #385898;
+    font-size: 12px;
+    background-color: white;
+    text-decoration: none;
+    margin-left: -24px;
+}
+.lang8{
+    color: #385893;
+    margin-left: -30.3px;
+    font-size: 12px;
+    background-color: white;
+    text-decoration: none;
+}
+.plus{
+    font-weight: bolder;
+    font-size: 14px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    width: 30px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+.z{
+    border-bottom: 1px solid #dadde1;
+    margin-left: 29px;
+    margin-right:183px;
+    margin-top: 10px;
+
+}
+.firstline{
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    background-color: white;
+    font-family: Arial;
+    margin-right: -14px;
+    margin-top: -30px;
+    color: #385898;
+    cursor: pointer;
+}
+.pagefooter{
+    margin-top: 7px;
+    background-color: white;
+}
+.secondline{
+    background-color: white;
+    font-size: 12px;
+    text-decoration: none;
+    color: #385898;
+    font-weight: normal;
+    font-family: Arial;
+    margin-right: -14px;
+    line-height: 1.4rem;
+}
+.third{
+    font-size: 12px;
+    margin-top: -1px;
+    background-color: white;
+}
+.thirdline{
+    font-weight:normal;
+    font-family: Arial;
+    color: #385893;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: white;
+    line-height: -1.6rem;
+    margin-right:-13px ;
+}
+.term{
+    font-weight: normal;
+    font-family: Arial;
+    color: #385893;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: white;
+    margin-left: -6px;
+}
+.help{
+    font-weight: normal;
+    font-family: Arial;
+    color: #385893;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: white;
+    margin-left: -13px;
+}
+.last{
+    margin-top: 23px;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: Arial;
+    color: #737373;
+    background-color: white;
+}
+button{
+    opacity: 1;
+}
+button:hover{
+    opacity: 0.9;
+}
